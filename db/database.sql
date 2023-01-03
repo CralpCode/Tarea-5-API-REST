@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS companydb;
+
+USE companydb;
+
+CREATE TABLE lenguajes (
+	id INT(11) NOT NULL AUTO_INCREMENT,
+    name VARCHAR(45) DEFAULT NULL,
+    year INT(5) DEFAULT NULL,
+    PRIMARY KEY (id)
+)
+
+DESCRIBE lenguajes;
