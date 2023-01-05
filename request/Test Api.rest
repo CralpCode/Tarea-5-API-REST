@@ -1,0 +1,22 @@
+GET http://localhost:3000/ping
+
+###
+GET http://localhost:3000/api/lenguajes
+
+###
+POST http://localhost:3000/api/lenguajes
+Content-Type: application/json
+{
+    "name" : "C"
+    "year" : 1997
+}
+
+###
+PATCH http://localhost:3000/api/lenguajes/7
+Content-Type: application/json
+{
+    "name" : "nuevo lenguaje"
+    "year" : 2008
+}
+###
+DELETE http://localhost:3000/api/lenguajes/3
