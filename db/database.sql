@@ -10,3 +10,9 @@ CREATE TABLE lenguajes (
 )
 
 DESCRIBE lenguajes;
+
+INSERT INTO lenguajes VALUES
+(1, 'JavaScript',1995 ),
+(2, 'Java',1995 ),
+(3, 'C', 1972),
+(4, 'C++', 1979)
