@@ -37,4 +37,4 @@ GET http://localhost:3000/api/lenguajes/1
 }
 
 ### Ruta para borrar algun lenguaje
-### DELETE http://localhost:3000/api/lenguajes/3
+DELETE http://localhost:3000/api/lenguajes/3
