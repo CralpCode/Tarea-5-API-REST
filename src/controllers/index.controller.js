@@ -1,5 +1,11 @@
 import { pool } from "../db.js";
 
+export const welcome = async (req ,res) => {
+    res.json({
+        message: "Bienvenido a mi Api"
+    })
+}
+
 export const ping = async (req ,res) => {
     try { 
         const [result] =  await pool.query('SELECT "Pong" AS result')
