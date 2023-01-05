@@ -6,7 +6,7 @@ export const obtenerLenguajes = async (req ,res) => {
         res.json(rows)
     } catch (error) {
         return res.status(500).json({
-            message : 'Ago no anda bien'
+            message : 'Algo no anda bien'
         })
     }
 }
@@ -22,7 +22,7 @@ export const obtenerLenguaje = async (req ,res) => {
     res.json(rows[0])
     } catch (error) {
         return res.status(500).json({
-            message : 'Ago no anda bien'
+            message : 'Algo no anda bien'
         })
     }
 
@@ -41,7 +41,7 @@ export const crearLenguajes = async (req ,res) => {
     })
     } catch (error) {
         return res.status(500).json({
-            message : 'Ago no anda bien'
+            message : 'Algo no anda bien'
         })
     }
     
@@ -61,7 +61,7 @@ export const actualizarLenguajes = async (req ,res) => {
         res.json(rows[0])
     } catch (error) {
         return res.status(500).json({
-            message : 'Ago no anda bien'
+            message : 'Algo no anda bien'
         })
     }
     
@@ -78,7 +78,7 @@ export const eliminarLenguajes = async (req ,res) => {
         res.sendStatus(204)    
     } catch (error) {
         return res.status(500).json({
-            message : 'Ago no anda bien'
+            message : 'Algo no anda bien'
         })
     }
     

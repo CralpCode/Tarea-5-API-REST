@@ -6,6 +6,9 @@ export const ping = async (req ,res) => {
         console.log(result)
         res.json(result[0])
     } catch (error) {
-        res.send('error');
+        console.log(errora)
+        return res.status(500).json({
+            message : 'Algo no anda bien'
+        })
     } 
 }
