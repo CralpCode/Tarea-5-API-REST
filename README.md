@@ -7,21 +7,21 @@ Link : [APIREST](https://tarea-5-api-rest-production.up.railway.app/ "Tarea-5")
 
 ## Tests para probar la Api
 ### Ruta principal
- GET http://localhost:3000/
+ GET https://tarea-5-api-rest-production.up.railway.app/
 
 ### Ruta ping
- GET http://localhost:3000/ping
+ GET https://tarea-5-api-rest-production.up.railway.app/ping
 
 ### Ruta para obtener lista de todos los lenguajes
- GET http://localhost:3000/api/lenguajes
+ GET https://tarea-5-api-rest-production.up.railway.app/api/lenguajes
 
 ### Ruta para obtener un lenguaje
 Añadir algun valor existente en la lista /1, /2, /3 , etc....
 
-GET http://localhost:3000/api/lenguajes/1
+GET https://tarea-5-api-rest-production.up.railway.app/lenguajes/1
 
 ### Crear un nuevo lenguaje
- POST http://localhost:3000/api/lenguajes Content-Type: application/json 
+ POST https://tarea-5-api-rest-production.up.railway.app/api/lenguajes Content-Type: application/json 
  
 {
   "name" : "C",
@@ -29,7 +29,7 @@ GET http://localhost:3000/api/lenguajes/1
 }
 
 ### Actualizar algun lenguaje
- PATCH http://localhost:3000/api/lenguajes/7 Content-Type: application/json 
+ PATCH https://tarea-5-api-rest-production.up.railway.app/api/lenguajes/7 Content-Type: application/json 
  
 {
   "name" : "nuevo lenguaje",
@@ -37,4 +37,4 @@ GET http://localhost:3000/api/lenguajes/1
 }
 
 ### Ruta para borrar algun lenguaje
-DELETE http://localhost:3000/api/lenguajes/3
+DELETE https://tarea-5-api-rest-production.up.railway.app/api/lenguajes/3
